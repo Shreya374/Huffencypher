@@ -13,11 +13,11 @@ It serves as a beginner-friendly introduction to data compression techniques usi
 
 To create a program that:
 
-Compresses text into a binary representation using Huffman Coding.
+~ Compresses text into a binary representation using Huffman Coding.
 
-Stores the generated Huffman code dictionary for decoding.
+~ Stores the generated Huffman code dictionary for decoding.
 
-Decompresses the binary data back into the original text without any loss.
+~ Decompresses the binary data back into the original text without any loss.
 
 
 
@@ -31,13 +31,13 @@ Rows / Characters: Varies depending on input size.
 
 Features:
 
-Raw Text Input
+~ Raw Text Input
 
-Character Frequency
+~ Character Frequency
 
-Huffman Binary Codes
+~ Huffman Binary Codes
 
-Compressed Output Size
+~ Compressed Output Size
 
 
 
@@ -50,11 +50,11 @@ Language: Python 3
 
 Libraries:
 
-heapq (priority queue for building Huffman Tree)
+~ heapq (priority queue for building Huffman Tree)
 
-collections.Counter (counting character frequency)
+~ collections.Counter (counting character frequency)
 
-pickle (optional, for saving and loading compressed data)
+~ pickle (optional, for saving and loading compressed data)
 
 
 
@@ -104,13 +104,13 @@ pickle (optional, for saving and loading compressed data)
 
 🖥 Example Usage
 
-Compression
+~ Compression
 
-python huffman_compress.py sample.txt
+~ python huffman_compress.py sample.txt
 
-Decompression
+~ Decompression
 
-python huffman_decompress.py compressed.bin codes.pkl
+~ python huffman_decompress.py compressed.bin codes.pkl
 
 
 ---
@@ -119,9 +119,9 @@ python huffman_decompress.py compressed.bin codes.pkl
 
 Metric	Original Text	Compressed Binary
 
-Size (bytes)	1200	650
-Compression Ratio	-	45.8% smaller
-Data Loss	None	None
+~ Size (bytes)	1200	650
+~ Compression Ratio	-	45.8% smaller
+~ Data Loss	None	None
 
 
 
@@ -134,6 +134,3 @@ This project is licensed under the MIT License.
 
 
 
-If you want, I can now also design this README with emojis, icons, and color highlights like your Titanic example so it visually matches perfectly.
-
-Do you want me to make that styled version next?
